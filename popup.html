@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Spigot Notifier</title>
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="popup.js" type="text/javascript"></script>
+    <link href="aaargh.css" rel="stylesheet" type="text/css">
+    <link href="popup.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="background">
+        <img src="sn_background.png" usemap="#site-link">
+        <map name="site-link">
+            <area shape="rect" coords="0,24,160,100" href="https://spigotmc.org/">
+        </map>
+        <div class="header">
+            <a href="https://spigotmc.org/">Home</a>
+            <span class="spliter">|</span>
+            <a href="https://spigotmc.org/forums/">Forums</a>
+            <span class="spliter">|</span>
+            <a href="https://spigotmc.org/resources/">Resources</a>
+            <span class="spliter">|</span>
+            <a href="https://spigotmc.org/wiki/index/">Wiki</a>
+            <span class="spliter">|</span>
+            <a href="https://hub.spigotmc.org/">Hub</a>
+            <span class="spliter">|</span>
+            <a href="https://spigotmc.org/pages/irc/">Chat</a>
+        </div>
+        <div id="toggleMode" style="cursor: pointer;">(Click To Toggle) Mode: <span id="mode"></span> </a>
+            <img id="options" src="sn_background_gear.png" title="Change Spigot Notifier's Options!">
+        <div class="content">
+            <span>Notifications | </span>
+            <a id="alerts" href="https://www.spigotmc.org/account/alerts" title="Click to see your alerts!">99 new</a>
+            <br>
+            <span>Messages | </span>
+            <a id="messages" href="https://www.spigotmc.org/conversations/" title="Click to see your messages!">99 new</a>
+            <br>
+            <span>Post Count | </span>
+            <span id="posts">99</span>
+            <br>
+            <span>Ratings | </span>
+            <span id="rating">99</span>
+        </div>
+    </div>
+</body>
+
+</html>
